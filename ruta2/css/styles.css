@@ -1,0 +1,201 @@
+body{
+    max-width: 100%;
+    height: auto;
+    background-color: #f3c6a6;
+    filter: grayscale(100%) opacity(0.1); /*Aplica un filtro para disminuir el color */
+    position: absolute;
+    background-position: center;
+    background-size: contain;
+
+/* 
+    background-image: url('../img/img_fondo.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    filter: grayscale(100%) opacity(0.1); Aplica un filtro para disminuir el color */
+
+}
+
+
+/*formato  del logo encabezado*/
+.header{
+    max-width: 120%;
+    height: 100px;
+    display: flex;
+    position: relative;
+    z-index: 1;
+    /* color: black; Cambia el color del texto para que sea visible */
+    margin: 5px;
+
+}
+
+/*formato  del logo UJaveriana*/
+.logoU{
+    margin-top: 0px;
+    width: 200px;
+    height: 100px;
+    position: absolute;
+    z-index: 1; 
+    /* overflow: visible;
+    mix-blend-mode: multiply; */
+   */
+
+}
+
+
+.header h1{
+    max-width: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #161515; 
+    font-size: 60px;
+    text-align: center;
+    left: 50px;
+    position: relative;
+}
+
+.header h4{
+    max-width: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #111010;
+    font-size: 20px;
+    text-align: center;
+    margin-left: 50px;
+    position: relative;
+}
+
+
+/* @keyframes header {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+} */
+
+.navbar{
+    max-width: 100%;
+    height: 50px;
+    position: relative;
+    background-color:#c89c7d;
+ 
+
+}
+
+.nav-item, a {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    color: black;
+
+
+}
+
+
+.nav-item a{
+    color: inherit;
+}
+
+.nav-item a:hover{
+    color: inherit;
+}
+
+.nav-item a:visited{
+    color: inherit;
+}
+
+.inicio{
+    width: 50px;
+    height: 40px;
+    margin-inline-end: 0px;
+    padding-bottom: 8px;
+
+}
+
+.principal1{
+    height: 300px;
+    max-width: 100%;    
+}
+
+.carousel{
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.w-100{
+    max-width: 100%;
+    height: 300px;
+}
+
+.tema{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #141414; 
+    font-size: 40px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.rutas{
+    max-width: 70%;
+    height: auto;
+    object-fit: cover; 
+    padding: 5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #f3f1f1; 
+    display: inline-block;
+    font-size: 15px;
+    text-align: center; /***** center *****/  /***** End center *****/
+
+    
+}
+
+.card-img-top{
+    width: 350px;
+    height: 130px;
+    margin-top: 5px;
+    overflow: visible;
+    object-fit: cover;
+    mix-blend-mode: multiply;
+
+}
+
+.card{
+    height: 500px;
+    position: relative;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #111010; 
+    box-shadow: 15px 15px 15px #ab7b59;
+    border-style: dotted;
+}
+
+.card-body{
+    margin-top: 10px;
+    padding: 5%;
+    position: absolute;
+}
+
+.card-tittle{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    color: #161515; 
+    position: absolute;
+    z-index: 1;
+    object-fit: cover; 
+
+}
+
+.card-text{
+  
+    margin-top: 80px;
+    left: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    text-align: center;
+
+}
+
+.btn{
+    width:200px;
+    position: relative;
+    right: 15px;
+}

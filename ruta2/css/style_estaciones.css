@@ -1,0 +1,167 @@
+body{
+    margin: 0px;
+    padding: 0px;   
+    height: auto;
+    background-image: url('../img/fondo_ruta2.JPG');
+    background-repeat: no-repeat;
+    /* background-position: center; */
+    background-size: contain;
+}
+
+
+
+.container-fluid{
+    height: 200px;    
+}
+
+.contenedor_ruta1{
+    margin-top: 0px;
+    max-width: 100%;
+    height: 500px;
+    float: left;
+    background-position: center;
+    position: relative;
+    z-index: 1;
+    display: flex;
+}
+
+
+.bandera_colombia{
+    margin-top: -450px;
+    margin-left: 350px;
+    height: 500px;
+    width: 400px; /* Ajusta el ancho según tus necesidades */
+    position: absolute;
+    z-index: 10;
+}
+
+.bandera_ruta2{
+    margin-top: 100px;
+    margin-left: 60px;
+    height: 500px;
+    width: 400px; /* Ajusta el ancho según tus necesidades */
+    position: absolute;
+    z-index: 10;
+}
+
+.intro_ruta1{
+    margin-top: 200px;
+    margin-left: 0px;
+    text-align: center;
+    max-width: 100%; /* Ajusta el ancho según tus necesidades */
+    height: 500px;
+    float: left;
+    position: absolute;
+    z-index: 10;
+
+}
+
+.title, h3{
+    margin: 5px;
+    margin-bottom: 5px;
+    font-family: cursive;
+    font-size: 40px;
+    color: hsl(46, 55%, 26%);
+    text-align: center;
+    position: relative;
+}
+
+.img_intro_ruta1{
+    padding: 20px;
+    width: 60%;
+    height: 250px;
+    left: 100px;
+    float: left;
+    position: absolute;
+
+}
+
+.texto_intro_ruta1{
+    top: 10px;
+    padding: 0px;
+    width: 100% ;
+    height: 200px;
+    left: 10px;
+}
+
+.simbolo_ruta1{
+    width: 80px;
+    height: 100px;
+
+}
+
+.title2{
+    padding: 10px;
+    font-family: cursive;
+    font-size: 25px;
+    color: rgb(148, 120, 84);
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: 2px; /* Ajusta el valor según tus necesidades */
+
+}
+
+.texto-intro, p{
+    padding: 10px;
+    font-family: cursive;
+    font-size: 15px;
+}
+/* Paso 1 */
+
+
+.img_e1-r1{
+    margin: 10px;
+    width: 700px;
+    height: 250px;
+    margin-left: -300px;
+    position: absolute;
+    float: inline-start;
+}
+.paso1{
+    margin: 30px;
+    left: 140px;
+    width: 650px;
+    height: 200px;
+    background-color: antiquewhite;
+    position: relative;
+    z-index: 1;
+
+}
+
+.continuar, a{
+    margin-top: 5px;
+    margin-left: 200px;
+    width: 200px;
+    height: 50px;
+    flex: 1;
+}
+
+.title3, h2{
+    font-size: 30px;
+    height: 40px;
+    background-color: gray;
+}
+
+.autor_ruta1{
+    padding-top: 10px;
+    width: 400px;
+    height: 300px;
+}
+
+.paso1-e1{
+    margin-left: 10px;
+}
+
+.frame_paso3{
+    margin-top: 10px;
+    left: 100px;
+    width: 500px;
+    height: 300px;
+    position: relative;
+}
+
+@media (max-width: 600px) {
+    .intro_ruta1 .contenedor_ruta1 .container-fluid .contenido {
+        width: 100%;
+    }
+}

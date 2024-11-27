@@ -1,0 +1,187 @@
+body{
+    margin: 0px;
+    padding: 0px;   
+    width: 100%;
+    height: auto;
+    background-image: url('../img/fondo_ruta_2.JPG');
+    background-repeat: no-repeat;
+    /* background-position: center; */
+    background-size: cover;
+}
+
+.container-fluid{
+    margin-top: 0px;
+    background-color: rgba(168, 168, 99, 0.281);
+    background: transparent;
+    max-width: 100%;
+    height: 100%;
+    background-position: center;
+    display: flex;
+}
+
+.bandera2{
+    background-image: url('../img/bandera.jpg');
+    background-size: cover; /* Ajusta el tamaño de la imagen */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    background-position: center; /* Centra la imagen */
+    height: 100vh; /* Altura del contenedor */
+    width: 120%; /* Ajusta el ancho según tus necesidades */
+    position: absolute;
+    z-index: 10;
+    margin-top: 150px;
+    float: left;
+    flex: 3;
+    margin-left: 800px;
+}
+
+.intro_ruta1{
+    margin-top: 10px;
+    float: left;
+    position: absolute;
+    z-index: 1;
+    margin-left: 150px;
+    width: 100%;
+    height: 100%;
+    flex: 8;
+}
+
+
+.img_intro_ruta1{
+    background-color:transparent; /* Color de fondo del contenedor */
+    display: flex;
+}
+
+.img1_ruta1{
+    margin-left: 180px;
+    width: 100%;
+    height: auto;
+    float: right;
+    position: relative;
+}
+
+.texto_intro_ruta1{
+    margin-top: 0px;
+    margin-left: 20px;
+    padding: 20px;
+    width: 100% ;
+    height: 150px;
+}
+
+.simbolo_ruta1{
+    width: 80px;
+    height: 100px;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+
+.texto-intro, p{
+    padding: 10px;
+    font-family: cursive;
+    font-size: 15px;
+}
+/* Paso 1 */
+
+
+.paso1{
+    margin: 20px;
+    left: 100px;
+    width: 90px;
+    height: 200px;
+    text-align: center;
+    background-color: antiquewhite;
+    position: absolute;
+    z-index: 1;
+
+}
+
+
+.title2{
+    padding: 5px;
+    font-family: cursive;
+    font-size: 3em;
+    color: rgb(148, 120, 84);
+    font-weight: bold;
+    text-align: center;
+   
+
+}
+
+.title3, h2{
+    font-size: 2em;
+    height: 40px;
+    color: gray;
+    text-align: center;
+}
+.title, h3{
+    margin: 5px;
+    margin-bottom: 5px;
+    font-family: cursive;
+    font-size: 40px;
+    color: hsl(46, 55%, 26%);
+    text-align: center;
+    position: relative;
+}
+
+.title_pasos{
+    font-family: cursive;
+    font-size: 1em;
+    color: rgb(124, 148, 121);
+    font-weight: bold;
+    text-align: center;
+}
+
+.autor_ruta1{
+    padding-top: 10px;
+    width: 400px;
+    height: 300px;
+}
+
+.paso1-e1{
+    margin-left: 10px;
+}
+
+.frame_paso3{
+    margin-top: 10px;
+    left: 0px;
+    width: 500px;
+    height: 300px;
+    position: relative;
+}
+
+
+.pagination {
+
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+}
+.pagination li {
+    margin: 5px;
+
+}
+.pagination a {
+    display: block;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    background-color: #98a197;
+    color: white;
+    border-radius: 50%;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+.pagination a:hover {
+    background-color: #cbe0c5;
+}
+.pagination .active a {
+    background-color: #4b574e;
+}
+
+@media (min-width: 1400px) {
+    .container-fluid {
+        width: 80%;
+        margin: 0 auto;
+        background-color: #e0e0e0;
+    }
+}

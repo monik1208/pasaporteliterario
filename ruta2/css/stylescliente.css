@@ -1,0 +1,32 @@
+body{
+    max-width: 100%;
+    height: auto;
+    background-image: url('../img/fondo2.png');
+    background-size: cover; /* Ajusta la imagen para cubrir todo el fondo */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    background-position: center center; /* Centra la imagen en la página */
+}
+.card{
+    height: 400px;
+    width: 80%;
+    margin-left: 12%;
+    position: fixed;
+    text-align: center;
+
+}
+
+.card-img-top{
+    height: 200px;
+    padding: 2%;
+}
+
+
+.principal{
+    height: 380px;
+    max-width: 100%;
+   
+}
+
+.btn{
+    background-color: chocolates;
+}
